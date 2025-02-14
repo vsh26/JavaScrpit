@@ -18,6 +18,7 @@ amazingly fast`;
 let myCar = "It\'s my car";
 
 const num = 5;
+// String Interpolation
 let numCars = `I have ${5} cars`;
 
 console.log(car1);
@@ -28,5 +29,3 @@ console.log(str2);
 console.log(str);
 console.log(myCar);
 console.log(numCars)
-
-// Template Strings
