@@ -10,10 +10,11 @@ console.log(typeof car3);
 let str1 = "That is a 'car'";
 let str2 = 'That is a "car"';
 
-// Template String
+// Template String/ Template literal
+let numOfCars = 10;
 let str = `These
 are cars. They are
-amazingly fast`;
+amazingly fast. There are ${numOfCars} cars`;
 
 let myCar = "It\'s my car";
 
