@@ -1,5 +1,5 @@
 let fname = 'Tony';
-let fname1 = fname;
+let fname1 = fname; // (value of fname is copied here)
 
 console.log(fname);
 console.log(fname1);
