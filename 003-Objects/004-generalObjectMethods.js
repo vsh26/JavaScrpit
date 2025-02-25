@@ -47,7 +47,7 @@ car3.price = "INR 70,00,000/-"
 console.log(car3);
 
 
-// Object.entries(object) - Returns an ARRAY of the [key, value] pairs of an object
+// Object.entries(object) - Returns an ARRAY of the given object's own ennumerable [key, value] pairs
 const objectEntries = Object.entries(car3);
 console.log(objectEntries);
 
@@ -81,7 +81,7 @@ const valueArray = Object.values(fruitObject);
 console.log(valueArray);
 
 
-// Object.groupBy(object, callback) - groups elements of an object according to string values returned from a callback function.
+// Object.groupBy(object, callback) - groups elements of an object according to string values returned from a callback function. Works only with enumerable properties.
 
 const myFruits = [
     {name:"apples", quantity:300},
