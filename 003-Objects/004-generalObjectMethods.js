@@ -23,7 +23,7 @@ const car2 = {
 console.log(car1);
 console.log(car2);
 
-// Object.assign(target, source) - Copies properties from a source object to a target object, returns modified target object
+// Object.assign(target, source) - Copies enumerable own properties from a source object to a target object, returns modified target object
 Object.assign(car1, car2);
 
 console.log(car1);
@@ -67,11 +67,11 @@ const fruitObject = Object.fromEntries(fruits);
 console.log(fruitObject);
 
 
-// Object.keys(object) - Returns an array of the keys of an object
+// Object.keys(object) - Returns an array of the enumerable keys of an object
 const keyArray = Object.keys(fruitObject);
 console.log(keyArray);
 
-// Object.values(object) - Returns an array of the property values of an object
+// Object.values(object) - Returns an array of the enumerable property values of an object
 const valueArray = Object.values(fruitObject);
 console.log(valueArray);
 
