@@ -1,4 +1,5 @@
 /*
+    - Object.hasOwn(object, property)
     - Object.assign(target, source)
     - Object.create(object)
     - Object.entries(object)
@@ -22,6 +23,10 @@ const car2 = {
 
 console.log(car1);
 console.log(car2);
+
+// Object.hasOwn(object, property) - returns true if the specified object has the indicated property as its own property. If the property is inherited, or does not exist, the method returns false.
+
+console.log(Object.hasOwn(car1, "brand"));
 
 // Object.assign(target, source) - Copies enumerable own properties from a source object to a target object, returns modified target object
 Object.assign(car1, car2);
