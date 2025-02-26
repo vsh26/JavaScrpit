@@ -101,3 +101,38 @@ let mostActiveUser = userActivity.reduce((maxUser, user) =>
 );
 
 console.log(mostActiveUser);
+
+
+/*
+    category-wise bill (Total of food, total of utilities)
+*/
+
+let expenses = [
+    { description : "Groceries" , amount : 50, category : "Food"},
+    { description : "Electricity Bill", amount : 100, category : "Utilities"},
+    { description : "Dinner", amount : 30, category : "Food"},
+    { description : "Internet Bill", amount : 50, category : "Utilities"}
+];
+
+// This code is static
+const expenseReport = expenses.reduce(
+    (report, expense) => {
+        report[expense.category] += expense.amount;
+        return report;
+    },
+    {Food : 0, Utilities: 0}
+);
+
+console.log(expenseReport);
+
+
+// Dynamic (if we don't know the categories)
+const dynamicExpenseReport = expenses.reduce(
+    (report, expense) => {
+        report[expense.category] = (report[expense.category] || 0) + expense.amount;
+        return report;
+    },
+    {}
+);
+
+console.log(dynamicExpenseReport);
