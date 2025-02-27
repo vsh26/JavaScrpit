@@ -1,0 +1,37 @@
+/* Flush the existing CSS (Reset styles)*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Arial, sans-serif
+}
+
+
+body{
+    background-color: rgb(78, 74, 74);
+    height: 100vh;  /* Full viewport height */
+    display: flex;  /* Enables flexbox */
+    justify-content: center ;   /* Align children to center on main axis*/
+    align-items: center;    /* Align children to center on cross axis*/
+}
+
+.clock-container{
+    text-align: center;
+    background-color: rgb(246, 234, 218);
+    padding: 50px ;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgb(25, 25, 25);
+}
+
+#time-container{
+    font-size: 5rem;
+    color:rgb(0, 0, 0);
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+#date-container{
+    font-size: 1.6rem;
+    color:rgb(0, 0, 0)
+}
