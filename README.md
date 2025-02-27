@@ -14,6 +14,11 @@
 │-- 004-Polyfills                  # Introduction to Protoypes and writing polyfills  
 │-- 005-ObjectsAndClasses          # Classes, constructors, prototype chaining
 │-- 006-DOM                        # DOM basics, event Listeners, mini-projects
+|-- 007-SpeedJS                    # Data types, coversion, array, object, control flow, truthy-falsy,
+|                                    Iterartion, functions
+|-- 008-MachineCoding              # All example questions in one place
+|-- 009-Proxy                      # Proxy, negative index example
+|-- 010-ClockProject               # A simple realtime clock using HTML, CSS and JS
 |-- Warmup                         # Quick concept refresher
 ```
 
@@ -29,6 +34,7 @@ Here are some of the best resources I studied from:
 - [js-polyfills](https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.43/polyfill.js)
 - [Can I Use - Check Browser Compatibility](https://caniuse.com/)
 - [ECMA Script Language Specification](https://tc39.es/ecma262/)
+- [JavaScript Visualiser 9000](https://www.jsv9000.app/)
 
 ## 📬 Connect with Me  
   
