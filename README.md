@@ -19,6 +19,9 @@
 |-- 008-MachineCoding              # All example questions in one place
 |-- 009-Proxy                      # Proxy, negative index example
 |-- 010-ClockProject               # A simple realtime clock using HTML, CSS and JS
+|-- 011-Promise                    # Promise, Promise chaining
+|-- 012-Sync-Async-JS              # Sync code (blocking code), async code (non-blocking code), fs,
+|                                    callback hell, fs/promises, promisification, async-await
 |-- Warmup                         # Quick concept refresher
 ```
 
