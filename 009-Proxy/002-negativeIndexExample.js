@@ -5,7 +5,7 @@
 */
 
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
+let nums1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // console.log(arr[-1]);
 
 function negativeIndex(arr){
@@ -50,13 +50,38 @@ function negativeIndex(arr){
 
 // console.log(nums[-1]);
 
-let newNums = negativeIndex(nums);
+let newNums = negativeIndex(nums);  // reference is passed
 console.log(newNums[-1]);
 console.log(newNums[0]);
 console.log(newNums[1]);
 
-newNums[-1] = 22;
+
+// Before Update
 console.log(nums);
 console.log(newNums);
 
-// Original array is also changed
+newNums[-1] = 22;
+
+// After Update
+console.log(nums);
+console.log(newNums);
+
+// Original array is also changed (because reference is passed)
+
+
+let newNums1 = negativeIndex([...nums1]);   // copy is created
+console.log(newNums1[-1]);
+console.log(newNums1[0]);
+console.log(newNums1[1]);
+
+// Before Update
+console.log(nums1);
+console.log(newNums1);
+
+newNums1[-1] = 22;
+
+// After Update
+console.log(nums1);
+console.log(newNums1);
+
+// Original array is not changed
