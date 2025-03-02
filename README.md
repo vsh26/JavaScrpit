@@ -8,21 +8,23 @@
 
 ```
 📦 JavaScript  
-│-- 001-Basics                     # Conditionals, loops, functions, strings, string methods  
-│-- 002-Arrays                     # Array and different array methods  
-│-- 003-Objects                    # Objects, memory (shallow copy, deep copy, serialization, deserialization)
-│-- 004-Polyfills                  # Introduction to Protoypes and writing polyfills  
-│-- 005-ObjectsAndClasses          # Classes, constructors, prototype chaining
-│-- 006-DOM                        # DOM basics, event Listeners, mini-projects
-|-- 007-SpeedJS                    # Data types, coversion, array, object, control flow, truthy-falsy,
-|                                    Iterartion, functions
-|-- 008-MachineCoding              # All example questions in one place
-|-- 009-Proxy                      # Proxy, negative index example
-|-- 010-ClockProject               # A simple realtime clock using HTML, CSS and JS
-|-- 011-Promise                    # Promise, Promise chaining
-|-- 012-Sync-Async-JS              # Sync code (blocking code), async code (non-blocking code), fs,
-|                                    callback hell, fs/promises, promisification, async-await
-|-- Warmup                         # Quick concept refresher
+│-- 001-Basics                              # Conditionals, loops, functions, strings, string methods  
+│-- 002-Arrays                              # Array and different array methods  
+│-- 003-Objects                             # Objects, memory, stack memory, heap memory, memory leak,
+|--                                           shallow copy, deep copy, serialization, deserialization
+│-- 004-Polyfills                           # Introduction to Protoypes and writing polyfills  
+│-- 005-ObjectsAndClasses                   # Classes, constructors, prototype chaining
+│-- 006-DOM                                 # DOM basics, event Listeners, mini-projects
+|-- 007-SpeedJS                             # Data types, coversion, array, object, control flow,
+|                                             truthy-falsy, iterartion, functions
+|-- 008-MachineCoding                       # All example questions in one place
+|-- 009-Proxy                               # Proxy, negative index example
+|-- 010-ClockProject                        # A simple realtime clock using HTML, CSS and JS
+|-- 011-Promise                             # Promise, Promise chaining
+|-- 012-Sync-Async-JS                       # Sync code (blocking code), async code (non-blocking code), fs,
+|                                             callback hell, fs/promises, promisification, async-await
+|-- 013-LexicalScoping-ClosureFunctions     # Lexical scope, closure functions with example, memory leak
+|-- Warmup                                  # Quick concept refresher
 ```
 
 ## 📚 Resources
