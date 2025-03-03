@@ -24,6 +24,8 @@
 |-- 012-Sync-Async-JS                       # Sync code (blocking code), async code (non-blocking code), fs,
 |                                             callback hell, fs/promises, promisification, async-await
 |-- 013-LexicalScoping-ClosureFunctions     # Lexical scope, closure functions with example, memory leak
+|-- 014-Debouncing                          # Concept of debouncing
+|-- 015-Throttling                          # Concept of throttling
 |-- Warmup                                  # Quick concept refresher
 ```
 
