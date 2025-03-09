@@ -26,6 +26,7 @@
 |-- 013-LexicalScoping-ClosureFunctions     # Lexical scope, closure functions with example, memory leak
 |-- 014-Debouncing                          # Concept of debouncing
 |-- 015-Throttling                          # Concept of throttling
+|-- 016-CodeChallenges                      # Solutions to the coding challenges from the cohort
 |-- Warmup                                  # Quick concept refresher
 ```
 
