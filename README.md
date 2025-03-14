@@ -27,6 +27,7 @@
 |-- 014-Debouncing                          # Concept of debouncing
 |-- 015-Throttling                          # Concept of throttling
 |-- 016-CodeChallenges                      # Solutions to the coding challenges from the cohort
+|-- 017-Practice                            # Topic wise practice
 |-- Warmup                                  # Quick concept refresher
 ```
 
@@ -34,10 +35,12 @@
 Here are some of the best resources I studied from: 
 
 1. [Web Dev Cohort 1.0 by ChaiCode](https://courses.chaicode.com/learn/batch/about?bundleId=214297)
-2. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-3. [W3Schools JavaScript Guide](https://www.w3schools.com/js/default.asp)
+2. [JavaScript Tutorial Full Course - Beginner to Pro](https://www.youtube.com/watch?v=EerdGm-ehJQ)
+3. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+4. [W3Schools JavaScript Guide](https://www.w3schools.com/js/default.asp)
 
 ## 🔗 Other useful resources
+- [JavaScript Exercises](https://github.com/SuperSimpleDev/javascript-course/tree/main/1-exercise-solutions)
 - [Quokka.js - The JavaScript Playground in your Editor](https://quokkajs.com/)
 - [js-polyfills](https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.43/polyfill.js)
 - [Can I Use - Check Browser Compatibility](https://caniuse.com/)
