@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Shipping Calculator</title>
+</head>
+<body>
+    <p>Amazon Shipping Calculator</p>
+    <p>Orders under $40 = +$10 shipping</p>
+    <p>Orders over $40 = FREE shipping</p>
+
+    <input class="cost-input" placeholder="Cost of order" onkeydown="
+        handleCostKeyDown(event);
+        ">
+    <button class="calculate-btn" onclick="
+        calculateTotalCost();
+    "
+    onkeydown="
+        calculateTotalCost();
+    ">Calculate</button>
+
+    <p class="total-cost"></p>
+
+    <script>
+
+        function handleCostKeyDown(event){
+            // console.log('typing...');
+            // console.log(event);
+            // console.log(event.key);
+        
+            if(event.key === 'Enter'){
+                calculateTotalCost();
+            }
+        }
+
+        function calculateTotalCost(){
+
+            const inputCostElement = document.querySelector('.cost-input');
+
+            // console.log(inputCostElement);
+            // console.log(inputCostElement.value);
+
+            const costValue = Number(inputCostElement.value);
+            // console.log(costValue);
+
+            if(!isNaN(costValue)){
+
+                if(costValue < 40){
+                    document.querySelector('.total-cost').innerText = `Total cost of order: $${(costValue + 10)}`;
+                }else{
+                    document.querySelector('.total-cost').innerText = `Total cost of order: $${costValue}`;
+                }
+                 
+            } else {
+                document.querySelector('.total-cost').innerText = `Enter a valid price`;
+            }
+        }
+
+    </script>
+</body>
+</html>
