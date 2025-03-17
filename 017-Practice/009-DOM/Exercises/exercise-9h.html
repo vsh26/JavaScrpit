@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" class="input-text" onkeyup="
+        // console.log(event);
+        displayText(event);
+    ">
+
+    <p class="display-text"></p>
+
+    <script>
+
+        let inputText = '';
+
+        function displayText(event){
+
+            if(event.key !== 'Backspace' && event.key !== 'Delete'){
+                inputText += event.key;
+                document.querySelector('.display-text').innerText = inputText;
+            }else{
+                inputText = inputText.slice(0, -1);
+                document.querySelector('.display-text').innerText = inputText;
+            }
+        }
+
+        // Add test cases for other keys as well
+        
+    </script>
+</body>
+</html>

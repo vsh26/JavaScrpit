@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="head-btn" onclick="
+        displayText(event);
+    ">heads</button>
+    <button class="tails-btn" onclick="
+        displayText(event);
+    ">tails</button>
+    <p class="display-text"></p>
+
+    <script>
+        function displayText(event){
+
+            // console.log(event);
+            // console.log(event.srcElement.innerText);
+
+            document.querySelector('.display-text').innerText = `You chose: ${event.srcElement.innerText}`
+            
+        }
+    </script>
+</body>
+</html>
