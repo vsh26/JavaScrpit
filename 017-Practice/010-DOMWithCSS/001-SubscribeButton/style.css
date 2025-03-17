@@ -1,0 +1,18 @@
+body{
+    font-family: 'Arial';
+}
+
+.subscribe-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.is-subscribed{
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
