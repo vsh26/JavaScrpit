@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <style>
+        button{
+            height: 30px;
+            width: 30px;
+            margin: 4px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <p class="display-area">A</p>
+
+    <div>
+        <button onclick="updateCalculation('1')">1</button>
+        <button onclick="updateCalculation('2')">2</button>
+        <button onclick="updateCalculation('3')">3</button>
+        <button onclick="updateCalculation(' + ')">+</button>
+    </div>
+
+    <div>
+        <button onclick="updateCalculation('4')">4</button>
+        <button onclick="updateCalculation('5')">5</button>
+        <button onclick="updateCalculation('6')">6</button>
+        <button onclick="updateCalculation(' - ')">-</button>
+    </div>
+
+    <div>
+        <button onclick="updateCalculation('7')">7</button>
+        <button onclick="updateCalculation('8')">8</button>
+        <button onclick="updateCalculation('9')">9</button>
+        <button onclick="updateCalculation(' * ')">*</button>
+    </div>
+
+    <div>
+        <button onclick="updateCalculation('0')">0</button>
+        <button onclick="updateCalculation('.')">.</button>
+        <button onclick="
+            total();
+        ">=</button>
+        <button onclick="updateCalculation(' / ')">/</button>
+    </div>
+
+    <div>
+        <button style="width: 160px;" onclick="
+            clearCalculation();
+        ">Clear</button>
+    </div>
+
+    
+
+    <script>
+
+        let calculation = localStorage.getItem('calculation') || '';
+        updateDisplay();
+
+        function updateCalculation(value){
+            calculation += value;
+            console.log(calculation);
+            updateDisplay();
+            saveCalculation();
+        }
+
+        function total(){
+            calculation = eval(calculation);
+            console.log(calculation);
+            updateDisplay();
+            saveCalculation();
+        }
+
+        function clearCalculation(){
+            calculation = '';
+            updateDisplay();
+            localStorage.removeItem('calculation');
+        }
+
+        function saveCalculation(){
+            localStorage.setItem('calculation', calculation);
+        }
+
+        function updateDisplay(){
+            document.querySelector('.display-area').innerText = calculation || '0';
+        }
+
+    </script>
+</body>
+</html>
