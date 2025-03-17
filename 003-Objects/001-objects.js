@@ -127,3 +127,20 @@ Person.prototype.fight = function(){
 
 console.log(firstAvenger.fight());
 console.log(theConsultant.nationality);
+
+// Destructuring
+
+const obj ={
+    
+    greetMsg : 'Hello',
+    message: 'Good Job!'
+
+}
+
+// const greetMsg = obj.greetMsg;
+// const message = obj.message;
+
+const {greetMsg, message} = obj;
+
+console.log(greetMsg);  // 'Hello'
+console.log(message);   // 'Good Job!'
