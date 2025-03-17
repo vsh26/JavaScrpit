@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="calc-container">
+        <p class="display-area"></p>
+    
+        <div>
+            <button onclick="updateCalculation('1')">1</button>
+            <button onclick="updateCalculation('2')">2</button>
+            <button onclick="updateCalculation('3')">3</button>
+            <button class="operations" onclick="updateCalculation(' + ')">+</button>
+        </div>
+    
+        <div>
+            <button onclick="updateCalculation('4')">4</button>
+            <button onclick="updateCalculation('5')">5</button>
+            <button onclick="updateCalculation('6')">6</button>
+            <button class="operations" onclick="updateCalculation(' - ')">-</button>
+        </div>
+    
+        <div>
+            <button onclick="updateCalculation('7')">7</button>
+            <button onclick="updateCalculation('8')">8</button>
+            <button onclick="updateCalculation('9')">9</button>
+            <button class="operations" onclick="updateCalculation(' * ')">*</button>
+        </div>
+    
+        <div>
+            <button onclick="updateCalculation('0')">0</button>
+            <button onclick="updateCalculation('.')">.</button>
+            <button onclick="
+                total();
+            ">=</button>
+            <button class="operations" onclick="updateCalculation(' / ')">/</button>
+        </div>
+    
+        <div>
+            <button class="operations" onclick="
+                clearCalculation();
+            ">C</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
