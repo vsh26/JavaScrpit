@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+}
+
+#main-title{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#display-quote{
+    max-width: 700px;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+#generate-btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
