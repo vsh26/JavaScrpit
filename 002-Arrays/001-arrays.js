@@ -20,6 +20,11 @@ console.log(typeof cars);
 console.log(typeof fruits);
 console.log(typeof person);
 
+// Array.isArray() is used to check if given element is an array
+console.log(Array.isArray(cars));
+console.log(Array.isArray(fruits));
+console.log(Array.isArray(person));
+
 // Converting array to string
 const fruitString = fruits.toString();
 console.log(fruitString);
