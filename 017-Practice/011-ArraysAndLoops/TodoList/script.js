@@ -11,6 +11,12 @@ const todoList = [];
 //     dueDate: '2025-02-22'
 // }];
 
+function renderSavedTodoList(){
+    const savedTodo = JSON.parse(localStorage.getItem('savedTodo')) || [];
+    todoList.push(...savedTodo);
+    renderTodoList();
+}
+
 function renderTodoList(){
     let todoListHTML = '';
 
@@ -23,6 +29,7 @@ function renderTodoList(){
                 class="delete-btn"
                 onclick="
                     todoList.splice(${i}, 1);
+                    localStorage.setItem('savedTodo', JSON.stringify(todoList));
                     renderTodoList();
                 "
                 >Delete</button>
@@ -44,13 +51,13 @@ function addTask(){
     const inputDueDate = document.querySelector(".js-input-due-date");
     const dueDateValue = inputDueDate.value;
 
-    if(task === '' || task === null || task === 'undefined' || dueDateValue === ''){
+    if(task === '' || dueDateValue === ''){
         return;
     }
     
     todoList.push({todoName:task, dueDate:dueDateValue});
     // console.log(todoList);
-
+    localStorage.setItem('savedTodo', JSON.stringify(todoList));
     renderTodoList();
     
     inputText.value = '';
@@ -59,3 +66,4 @@ function addTask(){
 }
 
 addButton.addEventListener('click', addTask);
+renderSavedTodoList();
