@@ -28,6 +28,7 @@
 |-- 015-Throttling                          # Concept of throttling
 |-- 016-CodeChallenges                      # Solutions to the coding challenges from the cohort
 |-- 017-Practice                            # Topic wise practice
+|-- 018-Projects                            # Application of JS concepts
 |-- Warmup                                  # Quick concept refresher
 ```
 
@@ -46,6 +47,14 @@ Here are some of the best resources I studied from:
 - [Can I Use - Check Browser Compatibility](https://caniuse.com/)
 - [ECMA Script Language Specification](https://tc39.es/ecma262/)
 - [JavaScript Visualiser 9000](https://www.jsv9000.app/)
+
+## 🛠️ Projects
+- Clock - [Link](https://clock-five-sage.vercel.app/) | [GitHub](https://github.com/vsh26/Clock)
+- Countdown Timer - [Link](https://countdown-timer-ochre-two.vercel.app/) | [GitHub](https://github.com/vsh26/Countdown-Timer)
+- Calculator - [Link](https://calculator-six-ashy-88.vercel.app/) | [GitHub](https://github.com/vsh26/Calculator)
+- Rock Paper Scissors - [Link](https://rock-paper-scissors-beryl-zeta.vercel.app/) | [GitHub](https://github.com/vsh26/RockPaperScissors)
+- Shopping Cart - [Link](https://shopping-cart-two-orcin.vercel.app/) | [GitHub](https://github.com/vsh26/Shopping-Cart)
+- Random Quote Generator - [GitHub](https://github.com/vsh26/Random-Quote-Generator)
 
 ## 📬 Connect with Me  
   
