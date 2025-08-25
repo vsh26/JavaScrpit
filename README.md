@@ -8,37 +8,55 @@
 
 ```
 📦 JavaScript  
-│-- 001-Basics                              # Conditionals, loops, functions, strings, string methods  
-│-- 002-Arrays                              # Array and different array methods  
-│-- 003-Objects                             # Objects, memory, stack memory, heap memory, memory leak,
-|--                                           shallow copy, deep copy, serialization, deserialization
-│-- 004-Polyfills                           # Introduction to Protoypes and writing polyfills  
-│-- 005-ObjectsAndClasses                   # Classes, constructors, prototype chaining
-│-- 006-DOM                                 # DOM basics, event Listeners, mini-projects
-|-- 007-SpeedJS                             # Data types, coversion, array, object, control flow,
-|                                             truthy-falsy, iterartion, functions
-|-- 008-MachineCoding                       # All example questions in one place
-|-- 009-Proxy                               # Proxy, negative index example
-|-- 010-ClockProject                        # A simple realtime clock using HTML, CSS and JS
-|-- 011-Promise                             # Promise, Promise chaining
-|-- 012-Sync-Async-JS                       # Sync code (blocking code), async code (non-blocking code), fs,
-|                                             callback hell, fs/promises, promisification, async-await
-|-- 013-LexicalScoping-ClosureFunctions     # Lexical scope, closure functions with example, memory leak
-|-- 014-Debouncing                          # Concept of debouncing
-|-- 015-Throttling                          # Concept of throttling
-|-- 016-CodeChallenges                      # Solutions to the coding challenges from the cohort
-|-- 017-Practice                            # Topic wise practice
-|-- 018-Projects                            # Application of JS concepts
-|-- Warmup                                  # Quick concept refresher
+|-- 001-DataTypesAndVariables                   # Variables, data types, scope
+|-- 002-DataTypeConversion                      # Conversion to number, string
+|-- 003-Operators                               # Arithmetic, Comparison and others
+|-- 004-ControlFlow                             # Conditionals, switch, ternary
+|-- 005-TruthyFalsy                             # Truthy and Falsy
+|-- 006-String                                  # String and its methods
+|-- 007-NumbersAndMaths                         # Number and Math important methods
+|-- 008-DateAndTime                             # Date and Time important methods
+|-- 009-Functions                               # Function Expression, Arrow Functions,
+|                                                 Callback Functions, Higher Order Functions
+|-- 010-Arrays                                  # Array creation, copying, methods
+|-- 011-Objects                                 # Object creation, copying, methods 
+|-- 012-Destructuring                           # Destructuring arrays and objects
+|-- 013-HoistingAndTDZ                          # Temporal Dead Zone,
+|                                                 Hoisting: Variable, Function, Class
+|-- 014-thisAndFunctionMethods                  # this: importance and working,
+|                                                 Function methods: call, bind, apply
+|-- 015-PrototypeAndPolyfills                   # Prototypes,
+|                                                 Polyfills for: forEach, map, filter, reduce, Promise
+|-- 016-ObjectsAndClasses                       # Objects, classes, Prototype chaining
+|-- 017-ErrorHandling                           # Syntax error, Runtime error
+|-- 018-DOM                                     # DOM Terminologies, Event Listeners
+|-- 019-Performance                             # Reflow, Repaint, DocumentFragment
+|-- 020-SpeedJS                                 # Revision
+|-- 021-MachineCoding                           # Revision: Using array methods, writing polyfills
+|-- 022-EventLoop                               # Event Loop, Call Stack, Queue, WebAPI, etc.
+|-- 023-Proxy                                   # Proxy, Proxy for accessing array elements using -ve index
+|-- 024-Promise                                 # Promise, Promise.all, Promise Chaining, etc
+|-- 025-Sync-Async-JS                           # Callback Hell, fs/promises, Promisification
+|-- 026-AsyncAwait                              # Concept of async-await
+|-- 027-FetchAPI                                # Fetch API methods, Error Handling
+|-- 028-LexicalScoping-ClosureFunctions         # Lexical Scope, Closure Functions, Memory Leak
+|-- 029-Debouncing                              # Concept of debouncing
+|-- 030-Throttling                              # Concept of throttling
+|-- 031-CodeChallenges                          # Solutions to the coding challenges from the cohort
+|-- 032-Practice                                # Topic wise practice
+|-- 033-Projects                                # Application of JS concepts
+|-- Warmup                                      # Quick concept refresher
+
 ```
 
 ## 📚 Resources
 Here are some of the best resources I studied from: 
 
 1. [Web Dev Cohort 1.0 by ChaiCode](https://courses.chaicode.com/learn/batch/about?bundleId=214297)
-2. [JavaScript Tutorial Full Course - Beginner to Pro](https://www.youtube.com/watch?v=EerdGm-ehJQ)
-3. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-4. [W3Schools JavaScript Guide](https://www.w3schools.com/js/default.asp)
+2. [Complete Web Dev using MERN stack by CodeHelp](https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD)
+3. [JavaScript Tutorial Full Course - Beginner to Pro](https://www.youtube.com/watch?v=EerdGm-ehJQ)
+4. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+5. [W3Schools JavaScript Guide](https://www.w3schools.com/js/default.asp)
 
 ## 🔗 Other useful resources
 - [JavaScript Exercises](https://github.com/SuperSimpleDev/javascript-course/tree/main/1-exercise-solutions)
